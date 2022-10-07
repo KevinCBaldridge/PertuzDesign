@@ -1,0 +1,17 @@
+-output_ab_scheme AHo_Scheme
+-add_graft_log_to_pdb
+-ignore_zero_occupancy false
+-ignore_unrecognized_res
+-pdb_comments
+-ex1
+-ex2
+-use_input_sc
+-out:pdb_gz
+-other_pose_to_scorefile
+-scorefile_format json
+-flip_HNQ
+-load_PDB_components false
+-mc_optimize_dG
+-light_chain kappa
+-high_mem_mode true
+-out:level 200

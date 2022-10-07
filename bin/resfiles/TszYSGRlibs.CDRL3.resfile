@@ -1,0 +1,12 @@
+#disallow Cys and Pro design at all positions 
+NOTAA CP
+NATRO
+EX 1 EX 2
+USE_INPUT_SC 
+START
+
+109 L PIKAA YS
+110 L PIKAA YS
+111 L PIKAA YS
+135 L PIKAA YS
+137 L PIKAA YS

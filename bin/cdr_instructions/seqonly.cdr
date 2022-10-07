@@ -1,0 +1,25 @@
+#General
+ALL FIX
+DE FIX
+ALL WEIGHTS 1.0
+#Types
+ALL CDRSet INCLUDEONLY LENGTH_TYPES 1 2 3
+#Minimization - Options: min, relax, ds_relax cartesian, backrub, repack, none
+ALL MinProtocol MINTYPE backrub
+#Length
+ALL CDRSet LENGTH MAX 25
+ALL CDRSet LENGTH MIN 1
+#Profile Design
+ALL SeqDesign STRATEGY PROFILES
+ALL SeqDesign FALLBACK_STRATEGY CONSERVATIVE
+##DE Loops can be designed.  They use conservative design by default since we have no profile data!
+DE SeqDesign STRATEGY CONSERVATIVE
+#### Weights ##########
+L1 WEIGHTS 1.0
+L2 WEIGHTS 1.0
+L3 WEIGHTS 1.0
+#### Disable certain amino acids ####
+L1 SEQDESIGN ALLOW
+L2 SEQDESIGN ALLOW
+L3 SEQDESIGN ALLOW
+ALL CDRSet CLUSTER_CUTOFFS 5

@@ -1,0 +1,15 @@
+#disallow Cys and Pro design at all positions 
+NOTAA CP
+NATRO
+EX 1 EX 2
+USE_INPUT_SC 
+START
+
+
+112 H ALLAA
+113 H ALLAA
+133 H ALLAA
+134 H ALLAA
+109 L ALLAA
+69 L ALLAA
+57 L ALLAA
